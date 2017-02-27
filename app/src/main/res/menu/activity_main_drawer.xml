@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="이용"
+        android:color="@color/colorPrimaryText">
+        <menu>
+            <item
+                android:id="@+id/nav_rank"
+                android:title="랭킹 수정 요청" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="피드백" />
+            <item
+                android:id="@+id/nav_notice"
+                android:title="공지 사항" />
+            <item
+                android:id="@+id/nav_coin"
+                android:title="코인충전" />
+        </menu>
+    </item>
+    <item android:title="공유"
+        android:color="@color/colorPrimaryText">
+        <menu>
+            <item
+                android:id="@+id/nav_review"
+                android:title="앱 평가하기" />
+        </menu>
+    </item>
+</menu>

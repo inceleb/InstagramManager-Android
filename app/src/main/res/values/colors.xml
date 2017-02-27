@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5d61ff</color>
+    <color name="colorPrimaryText">#849ef2</color>
+    <color name="colorPrimaryDark">#25262b</color>
+    <color name="colorAccent">#ff5f5f</color>
+    <color name="colorDarkGrayText">#838385</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorHomeActivityBackground">#1f2024</color>
+
+    <color name="colorUserBackground">#b485f2</color>
+    <color name="colorPostBackground">#73dacc</color>
+    <color name="colorRankBackground">#f285a8</color>
+</resources>

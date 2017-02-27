@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">InstaManager</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="new_follow">새로운 팔로우</string>
+    <string name="un_follow">언팔로우</string>
+    <string name="home_msg1">내가 선팔 후 상대가 맞팔 안 함</string>
+    <string name="home_msg2">내가 맞팔 안 함</string>
+    <string name="home_msg3">삭제된 댓글 / 좋아요</string>
+    <string name="home_msg4">나를 차단함</string>
+
+    <string name="nav_menu_rank">랭킹 수정 요청</string>
+    <string name="nav_menu_feedback">피드백</string>
+    <string name="nav_menu_notice">공지사항</string>
+    <string name="nav_menu_coin">코인 충전</string>
+    <string name="nav_menu_review">앱 평가하기</string>
+    <string name="title_activity_detail">DetailActivity</string>
+</resources>

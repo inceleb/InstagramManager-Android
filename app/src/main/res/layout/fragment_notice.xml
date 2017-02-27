@@ -1,0 +1,241 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/colorPrimaryDark"
+tools:context="com.dothome.inceleb.instamanager.Tab.NoticeFragment">>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_title_height"
+    android:background="@color/colorPostBackground"
+    android:text="게시물 분석"
+    android:textSize="16dp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textColor="@color/colorWhite"></TextView>
+<RelativeLayout
+    android:id="@+id/list_graph"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_1"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 게시물 통계"
+        android:textSize="16dp"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_2"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아요 많이 받은 게시물"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+
+<RelativeLayout
+
+    android:id="@+id/best_like_notice"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_3"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="댓글 많이 달린 게시물"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/best_comments_notice"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_4"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아요 적게 받은 게시물"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/worst_likes_notice"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_5"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아요 늘리기!"
+        android:layout_centerVertical="true"
+        android:textColor="@color/colorPostBackground"
+        android:textSize="16dp"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="36dp"
+    android:layout_marginBottom="9dp"
+    android:text="해시태그 분석"
+    android:textStyle="bold"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:textColor="@color/colorPostBackground"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="1sp"
+    android:background="@color/colorHomeActivityBackground"></LinearLayout>
+
+<RelativeLayout
+    android:id="@+id/best_hash"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/fragment_menu_height"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+    <ImageView
+        android:id="@+id/user_icon_6"
+        android:layout_width="@dimen/fragment_menu_icon_size"
+        android:layout_height="@dimen/fragment_menu_icon_size"
+        android:layout_marginRight="8dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_menu_white_24dp"
+        android:tint="@color/colorPostBackground"/>
+    <TextView
+        android:layout_toRightOf="@id/user_icon_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아요 많이 받은 게시물"
+        android:layout_centerVertical="true"
+        android:textSize="16dp"
+        android:textColor="#ffffff"/>
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:tint="@color/colorPostBackground"
+        android:src="@android:drawable/ic_media_play"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@color/colorHomeActivityBackground"></LinearLayout>
+</RelativeLayout>
+</LinearLayout>
+

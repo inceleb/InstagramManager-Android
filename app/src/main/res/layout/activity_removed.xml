@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_removed"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.dothome.inceleb.instamanager.Home.RemovedActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimaryText"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_title_height">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="&lt;"
+            android:textSize="24dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="삭제 된 댓글/좋아요"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

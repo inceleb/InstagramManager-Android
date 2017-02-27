@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_graph"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.dothome.inceleb.instamanager.NoticeInsight.GraphActivity">
+    <RelativeLayout
+        android:background="@color/colorPostBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/fragment_title_height">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="&lt;"
+            android:textSize="24dp"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="내 게시물 통계"
+            android:textStyle="bold"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="title"
+        android:textColor="@color/colorWhite"
+        android:textSize="24dp"
+        android:gravity="center"/>
+    <com.jjoe64.graphview.GraphView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:id="@+id/graph" />
+</LinearLayout>
